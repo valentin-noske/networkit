@@ -2,7 +2,7 @@
 // Created by valentin on 07.11.21.
 //
 
-#include "AlgebraicADP.hpp"
+#include "AlgebraicADP.h"
 
 #include <networkit/io/KONECTGraphReader.hpp>
 #include <iostream>

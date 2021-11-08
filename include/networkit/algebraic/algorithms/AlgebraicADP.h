@@ -13,7 +13,7 @@ namespace NetworKit {
 
     class AlgebraicADP: public Algorithm {
     public:
-        AlgebraicADP(const std::string &path) {}
+        AlgebraicADP(const std::string &path);
 
         ~AlgebraicADP() = default;
 
@@ -30,3 +30,5 @@ namespace NetworKit {
 
 }
 #endif // NETWORKIT_ALGEBRAICADP_H
+
+
