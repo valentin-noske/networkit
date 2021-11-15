@@ -34,8 +34,6 @@ namespace NetworKit {
  */
 template <class ValueType>
 class CSRGeneralMatrix {
-    std::vector<index> rowIdx, columnIdx;
-    std::vector<ValueType> nonZeros;
 
     count nRows, nCols;
     bool isSorted;
@@ -102,6 +100,9 @@ class CSRGeneralMatrix {
     }
 
 public:
+    std::vector<index> rowIdx, columnIdx;
+    std::vector<ValueType> nonZeros;
+
     /** Default constructor */
     CSRGeneralMatrix()
         : rowIdx(0), columnIdx(0), nonZeros(0), nRows(0), nCols(0), isSorted(true), zero(0) {}
